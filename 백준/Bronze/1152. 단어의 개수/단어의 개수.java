@@ -7,7 +7,7 @@ public class Main {
         String str = sc.nextLine();
 
         StringTokenizer st = new StringTokenizer(str," ");
-        System.out.println(st.countTokens());
+        System.out.println(st.countTokens());  //countTokens 는 배열의 length처럼 토큰의 개수를 반환
 
     }
 }
