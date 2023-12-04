@@ -15,7 +15,7 @@ public class Main {
                 } else {
                     System.out.println("neither");
                 }
-            } else if (y > x) {
+            } else  {
                 if (y % x == 0) {
                     System.out.println("factor");
                 } else {
