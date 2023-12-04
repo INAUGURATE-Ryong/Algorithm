@@ -9,3 +9,8 @@ class Solution {
         return answer;
     }
 }
+
+/*
+for(answer = 1; answer <n; answer ++){
+if(n%answer ==1) break;
+}*/
