@@ -6,7 +6,7 @@ public class Main {
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        a = Integer.parseInt(new StringBuilder().append(a).reverse().toString());
+        a = Integer.parseInt(new StringBuilder().append(a).reverse().toString());  // StringBuffer 도 가능.
         b = Integer.parseInt(new StringBuilder().append(b).reverse().toString());
 
         if(a > b){
